@@ -164,7 +164,7 @@ export class ControladoraUsuario {
             console.log(CampoEstaticoDeCorreo.value)
     } 
 
-// --------------- TABLAS ----------------------
+// --------------- TABLAS ----------------------////
     async MostrarUsuariosIndex(table){
       fetch('https://sqa-kcgp.onrender.com/Usuario',{
         method: 'GET',
