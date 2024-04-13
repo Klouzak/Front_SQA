@@ -1,5 +1,5 @@
 import {ControladoraUsuario}  from './ControladoraUsuario.js';
-import {ControladoraJovenes}  from './ControladoraJovenes.mjs';
+import {ControladoraJovenes}  from './ControladoraJovenes.js';
 import {ControladoraEventos}  from './ControladoraEventos.js';
 import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
 
