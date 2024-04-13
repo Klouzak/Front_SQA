@@ -17,8 +17,8 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
                 alert('mira puta')
                 const table = document.querySelector('.table');
                 const tableUsuarios = document.querySelector('#tablaIndexUsuarios')
-                //controladoraUsuario.MostrarUsuariosIndex(tableUsuarios)
-                //controladoraJovenes.MostarJovenes(table);
+                controladoraUsuario.MostrarUsuariosIndex(tableUsuarios)
+                controladoraJovenes.MostarJovenes(table);
             });  
         break;
             //-------------------Funcion de logueo--------------------//
