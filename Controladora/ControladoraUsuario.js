@@ -166,7 +166,7 @@ export class ControladoraUsuario {
 
 // --------------- TABLAS ----------------------
     async MostrarUsuariosIndex(table){
-      fetch('http://localhost:3000/Usuario',{
+      fetch('https://sqa-kcgp.onrender.com/Usuario',{
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
