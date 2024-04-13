@@ -14,10 +14,11 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
         case 'index':
             document.addEventListener('DOMContentLoaded', function() {
                 // Obtener la referencia de la tabla
+                alert('mira puta')
                 const table = document.querySelector('.table');
                 const tableUsuarios = document.querySelector('#tablaIndexUsuarios')
-                controladoraUsuario.MostrarUsuariosIndex(tableUsuarios)
-                controladoraJovenes.MostarJovenes(table);
+                //controladoraUsuario.MostrarUsuariosIndex(tableUsuarios)
+                //controladoraJovenes.MostarJovenes(table);
             });  
         break;
             //-------------------Funcion de logueo--------------------//
