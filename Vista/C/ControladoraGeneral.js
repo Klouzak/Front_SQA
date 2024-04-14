@@ -13,8 +13,6 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
 
     switch (document.body.id) {
         case 'index':
-            alert('Maldita puta')
-
             document.addEventListener("DOMContentLoaded", function() {
                 const botonLogin = document.querySelector("#botonLogin");
                 
@@ -29,7 +27,6 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
         break;
             //-------------------Funcion de logueo--------------------//
         case 'Principal':
-            alert('Maldita puta')
             document.addEventListener('DOMContentLoaded', function() {
                 const table = document.querySelector('.table');
                 const tableUsuarios = document.querySelector('#tablaIndexUsuarios')
@@ -48,6 +45,7 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
         break;
             //------------------- Agregar Joven ---------------------//
         case 'agregar-joven':
+            alert('hola')
             document.addEventListener("DOMContentLoaded", function() {
             const botonAgregarJoven = document.querySelector("#agregar-jovensito");
                 botonAgregarJoven.addEventListener("click", function(event) {

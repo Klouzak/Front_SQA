@@ -5,7 +5,7 @@ export class ControladoraJovenes{
 
 
   async AgregarJovenBase(nombre, apellido, cedula, correo, redes, hobby, telefono, fechaNacimiento) {
-    fetch('http://localhost:3000/Jovenes', {
+    fetch('https://sqa-kcgp.onrender.com/Jovenes', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
