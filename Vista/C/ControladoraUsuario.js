@@ -5,7 +5,7 @@ export class ControladoraUsuario {
 
 // --------------- LOGUEO ----------------------
     async logeo(correo , contraseña) {
-      await fetch('http://localhost:3000/Login',{
+      await fetch('https://sqa-kcgp.onrender.com/Login',{
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

@@ -14,6 +14,19 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
     switch (document.body.id) {
         case 'index':
             alert('Maldita puta')
+
+            document.addEventListener("DOMContentLoaded", function() {
+                const botonLogin = document.querySelector("#botonLogin");
+                
+                botonLogin.addEventListener("click", function(evento) {
+                evento.preventDefault();
+                evento.stopPropagation();
+                const contenidoEmail = document.getElementById("yourUsername").value ;
+                const contenidoPassword = document.getElementById("yourPassword").value;
+                controladoraUsuario.logeo(contenidoEmail,contenidoPassword);
+              });
+            });
+            
             /*document.addEventListener('DOMContentLoaded', function() {
                 const table = document.querySelector('.table');
                 const tableUsuarios = document.querySelector('#tablaIndexUsuarios')
