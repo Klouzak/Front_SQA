@@ -99,7 +99,7 @@ export class ControladoraJovenes{
 
   async ValidarCedula(cedula){
     var x=0;
-    await fetch('http://localhost:3000/Jovenes/validarCedula', {
+    await fetch('https://sqa-kcgp.onrender.com/Jovenes/validarCedula', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
