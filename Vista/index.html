@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en" > 
 
 <head>
@@ -390,6 +389,13 @@
       }
     </script>
 
+<script>
+  document.querySelector('.toggle-sidebar-btn').addEventListener('click', function() {
+    document.querySelector('#sidebar').classList.toggle('show');
+  });
+  </script>
+  
+
   </main><!-- End #main -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -407,7 +413,6 @@
   <!-- Template Main JS File -->
   <script type="module" src="./Controladora/main.js"></script>
   <script type="module" src="C/ControladoraGeneral.js"></script>
-  <script type="module" src="C/main.js"></script>
   <script  src="CC.js"></script>
 
 </body>
