@@ -13,12 +13,13 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
 
     switch (document.body.id) {
         case 'index':
-            document.addEventListener('DOMContentLoaded', function() {
+            alert('Maldita puta')
+            /*document.addEventListener('DOMContentLoaded', function() {
                 const table = document.querySelector('.table');
                 const tableUsuarios = document.querySelector('#tablaIndexUsuarios')
                 controladoraUsuario.MostrarUsuariosIndex(tableUsuarios)
                 controladoraJovenes.MostarJovenes(table);
-            });  
+            }); */ 
         break;
             //-------------------Funcion de logueo--------------------//
         case 'login':
