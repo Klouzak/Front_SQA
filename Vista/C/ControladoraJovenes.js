@@ -298,7 +298,7 @@ LLenarCamposDeTextoDeEliminarJovenes(data){
 }
 
 async MostarJovenes(table) {
-    fetch('http://localhost:3000/Jovenes', {
+    fetch('https://sqa-kcgp.onrender.com/Jovenes', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

@@ -14,8 +14,6 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
     switch (document.body.id) {
         case 'index':
             document.addEventListener('DOMContentLoaded', function() {
-                // Obtener la referencia de la tabla
-                alert('mira puta')
                 const table = document.querySelector('.table');
                 const tableUsuarios = document.querySelector('#tablaIndexUsuarios')
                 controladoraUsuario.MostrarUsuariosIndex(tableUsuarios)
