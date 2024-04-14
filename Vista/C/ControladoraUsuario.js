@@ -19,7 +19,7 @@ export class ControladoraUsuario {
         .then(data => {
 
             if(data.valid===true ){
-              window.location.assign('../Vista/index.html')
+              window.location.assign('../Vista/Principal.html')
 
               document.cookie = `Nombre=${data.nombres}; expires=Fri, 31 Dec 2024 23:59:59 UTC; path=/`;
               document.cookie = `Apellido=${data.apellidos}; expires=Fri, 31 Dec 2024 23:59:59 UTC; path=/`;
