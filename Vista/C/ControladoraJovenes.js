@@ -1,6 +1,3 @@
-
-
-
 export class ControladoraJovenes{
 
 
@@ -130,7 +127,7 @@ export class ControladoraJovenes{
 
   async ModificarJovenBase(nombre,apellido,cedula,correo,redes,hobby,telefono,fechaNacimiento,cedulaTabla){
 
-    fetch('http://localhost:3000/Jovenes/ModificarJoven', {
+    fetch('https://sqa-kcgp.onrender.com/Jovenes/ModificarJoven', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -166,7 +163,7 @@ export class ControladoraJovenes{
 
   async EliminarJoven(cedula){
 
-    await fetch('http://localhost:3000/Jovenes/Eliminar', {
+    await fetch('https://sqa-kcgp.onrender.com/Jovenes/Eliminar', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -187,7 +184,7 @@ export class ControladoraJovenes{
 
 
   async visualizarJovenes(table) {
-    fetch('http://localhost:3000/Jovenes', {
+    fetch('https://sqa-kcgp.onrender.com/Jovenes', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -248,7 +245,7 @@ export class ControladoraJovenes{
   }
 
   async BuscarDatosDeUnJovenPorCedula(cedula){
-    fetch('http://localhost:3000/Jovenes/BuscarDatosDeUnJoven',{
+    fetch('https://sqa-kcgp.onrender.com/Jovenes/BuscarDatosDeUnJoven',{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -344,7 +341,7 @@ async MostarJovenes(table) {
   }
 
   async ConsultarJovenes(table) {
-    fetch('http://localhost:3000/Jovenes', {
+    fetch('https://sqa-kcgp.onrender.com/Jovenes', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
