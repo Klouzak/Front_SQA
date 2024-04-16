@@ -1,11 +1,10 @@
 import {Usuario}  from '../Modelo/Usuario.mjs';
 
-
 export class ControladoraUsuario {
 
 // --------------- LOGUEO ----------------------
     async logeo(correo , contraseña) {
-      await fetch('http://localhost:3000/Login',{
+      await fetch('https://sqa-kcgp.onrender.com/Login',{
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -19,7 +18,7 @@ export class ControladoraUsuario {
         .then(data => {
 
             if(data.valid===true ){
-              window.location.assign('../Vista/index.html')
+              window.location.assign('/Principal.html')
 
               document.cookie = `Nombre=${data.nombres}; expires=Fri, 31 Dec 2024 23:59:59 UTC; path=/`;
               document.cookie = `Apellido=${data.apellidos}; expires=Fri, 31 Dec 2024 23:59:59 UTC; path=/`;
@@ -31,7 +30,7 @@ export class ControladoraUsuario {
             }{}
           })
         .catch(error => {e
-         // alert('Error al agregar el joven:', error);
+         // alert('Error al agregar el joven:', error);  
         });
     }
 

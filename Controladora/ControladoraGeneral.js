@@ -3,7 +3,8 @@ import {ControladoraJovenes}  from './ControladoraJovenes.js';
 import {ControladoraEventos}  from './ControladoraEventos.js';
 import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
 
-
+ ////////////////// 
+ 
 (function() {
     const controladoraJovenes= new ControladoraJovenes();
     const controladoraUsuario = new ControladoraUsuario();
@@ -12,17 +13,6 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
 
     switch (document.body.id) {
         case 'index':
-            document.addEventListener('DOMContentLoaded', function() {
-                // Obtener la referencia de la tabla
-                alert('mira puta')
-                const table = document.querySelector('.table');
-                const tableUsuarios = document.querySelector('#tablaIndexUsuarios')
-                controladoraUsuario.MostrarUsuariosIndex(tableUsuarios)
-                controladoraJovenes.MostarJovenes(table);
-            });  
-        break;
-            //-------------------Funcion de logueo--------------------//
-        case 'login':
             document.addEventListener("DOMContentLoaded", function() {
                 const botonLogin = document.querySelector("#botonLogin");
                 
@@ -35,6 +25,15 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
               });
             });
         break;
+            //-------------------Funcion de logueo--------------------//
+        case 'Principal':
+            document.addEventListener('DOMContentLoaded', function() {
+                const table = document.querySelector('.table');
+                const tableUsuarios = document.querySelector('#tablaIndexUsuarios')
+                controladoraUsuario.MostrarUsuariosIndex(tableUsuarios)
+                controladoraJovenes.MostarJovenes(table);
+            }); 
+        break;
         //------------------- Consultar Joven ---------------------//
         case 'consultar-joven':
             document.addEventListener('DOMContentLoaded', function() {
@@ -46,6 +45,7 @@ import {ControladoraDonaciones}  from './ControladoraDonaciones.js';
         break;
             //------------------- Agregar Joven ---------------------//
         case 'agregar-joven':
+            alert('hola')
             document.addEventListener("DOMContentLoaded", function() {
             const botonAgregarJoven = document.querySelector("#agregar-jovensito");
                 botonAgregarJoven.addEventListener("click", function(event) {
