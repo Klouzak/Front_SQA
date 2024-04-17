@@ -103,7 +103,7 @@ export class ControladoraUsuario {
     }
 
     async BuscarDatosDeUnUsuarioPorCedula(cedula, valid) {
-        fetch('http://localhost:3000/Usuario/buscarDatosDeUsuario', {
+        fetch('https://sqa-kcgp.onrender.com/Usuario/buscarDatosDeUsuario', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -210,7 +210,7 @@ export class ControladoraUsuario {
     }
 
     async MostrarUsuarios(table) {
-        fetch('http://localhost:3000/Usuario', {
+        fetch('https://sqa-kcgp.onrender.com/Usuario', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -459,7 +459,7 @@ export class ControladoraUsuario {
 
     async ValidarCorreo(correo) {
         var x = true;
-        await fetch('http://localhost:3000/Usuario/validarCorreo', {
+        await fetch('https://sqa-kcgp.onrender.com/Usuario/validarCorreo', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -481,7 +481,7 @@ export class ControladoraUsuario {
     // --------------- Metodos para el Perfil ----------------------
 
     async BuscarDatosPerfil(ID) {
-        await fetch('http://localhost:3000/Usuario/buscarDatosPerfil', {
+        await fetch('https://sqa-kcgp.onrender.com/Usuario/buscarDatosPerfil', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -501,7 +501,7 @@ export class ControladoraUsuario {
 
     async BuscarDatos(ID) {
         var d = "";
-        await fetch('http://localhost:3000/Usuario/buscarDatosPerfil', {
+        await fetch('https://sqa-kcgp.onrender.com/Usuario/buscarDatosPerfil', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -533,7 +533,7 @@ export class ControladoraUsuario {
 
     async ModificarPerfilBase(id, nombre, apellido, cedula, correo, telefono, fechaNacimiento, descripcion) {
 
-        await fetch('http://localhost:3000/Usuario/ModificarPerfil', {
+        await fetch('https://sqa-kcgp.onrender.com/Usuario/ModificarPerfil', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -582,7 +582,7 @@ export class ControladoraUsuario {
 
     async CambiarPassword(password, newPassword, renewPassword, id) {
 
-        await fetch('http://localhost:3000/Usuario/cambiarPassword', {
+        await fetch('https://sqa-kcgp.onrender.com/Usuario/cambiarPassword', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -608,7 +608,7 @@ export class ControladoraUsuario {
 
 
     async ValidarPassword(newPassword, id) {
-        await fetch('http://localhost:3000/Usuario/modificarPassword', {
+        await fetch('https://sqa-kcgp.onrender.com/Usuario/modificarPassword', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
