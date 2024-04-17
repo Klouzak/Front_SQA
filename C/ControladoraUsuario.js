@@ -2,6 +2,10 @@ import { Usuario } from '../Modelo/Usuario.mjs';
 /////////////aaaaaaaaaaaaaaa////////////////
 export class ControladoraUsuario {
 
+    /////////zzzz//// //////dasdasdad/d////asdad/
+
+
+
     // --------------- LOGUEO ----------------------
     async logeo(correo, contraseña) {
         await fetch('https://sqa-kcgp.onrender.com/Login', {
