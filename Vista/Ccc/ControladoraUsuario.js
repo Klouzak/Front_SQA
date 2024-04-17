@@ -1,10 +1,7 @@
 import { Usuario } from '../Modelo/Usuario.mjs';
-/////////////aaaaaaaaaaaaaaa////////////////
+
+
 export class ControladoraUsuario {
-
-    /////////zzzz//// //////dasdasdad/d////asdad/
-
-
 
     // --------------- LOGUEO ----------------------
     async logeo(correo, contraseña) {
