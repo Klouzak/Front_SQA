@@ -2,34 +2,34 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Eliminar Usuario - Jóvenes las Acacias</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>Eliminar Usuario - Jóvenes las Acacias</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: NiceAdmin
   * Updated: Mar 09 2023 with Bootstrap v5.2.3
   * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
@@ -40,426 +40,444 @@
 
 <body id="eliminar-colaborador">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
 
-    <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <i class="bx bxs-church" style="font-size:xx-large"></i>
-        <span class="d-none d-lg-block">Jóvenes Las Acacias</span>
-      </a>
-      <i class="bi bi-list toggle-sidebar-btn"></i>
-    </div><!-- End Logo -->
-
-    <nav class="header-nav ms-auto">
-      <ul class="d-flex align-items-center">
-
-        <li class="nav-item dropdown">
-
-        <li class="nav-item dropdown pe-3">
-
-          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <i class="bi bi-person-fill"></i>
-            <span class="d-none d-md-block dropdown-toggle ps-2" id="NombreUsuarioEntrante"></span>
-          </a><!-- End Profile Iamge Icon -->
-
-          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-            <li class="dropdown-header">
-              <h6 id="NombreUsuario"></h6>
-              <span id="RollUsuario"></span>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                <i class="bi bi-person"></i>
-                <span>Mi Perfil</span>
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="pages-login.html">
-                <i class="bi bi-box-arrow-right"></i>
-                <span>Cerrar Sesión</span>
-              </a>
-            </li>
-
-          </ul><!-- End Profile Dropdown Items -->
-        </li><!-- End Profile Nav -->
-
-      </ul>
-    </nav><!-- End Icons Navigation -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Sidebar ======= -->
-  <aside id="sidebar" class="sidebar">
-
-    <ul class="sidebar-nav" id="sidebar-nav">
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
-          <i class="bi bi-grid"></i>
-          <span>Inicio</span>
-        </a>
-      </li><!-- End Inicio Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bx bxs-face"></i><span>Gestionar Jóvenes</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="agregar-joven.html">
-              <i class="bi bi-circle"></i><span>Agregar Joven</span>
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <i class="bx bxs-church" style="font-size:xx-large"></i>
+                <span class="d-none d-lg-block">Jóvenes Las Acacias</span>
             </a>
-          </li>
-          <li>
-            <a href="modificar-joven.html">
-              <i class="bi bi-circle"></i><span>Modificar Joven</span>
-            </a>
-          </li>
-          <li>
-            <a href="eliminar-joven.html">
-              <i class="bi bi-circle"></i><span>Eliminar Joven</span>
-            </a>
-          </li>
-          <li>
-            <a href="consultar-joven.html">
-              <i class="bi bi-circle"></i><span>Consultar Joven</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Gestionar Jóvenes Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link " data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-          <i class="ri-team-line"></i><span>Gestionar Usuarios</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="forms-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="agregar-colaborador.html">
-              <i class="bi bi-circle"></i><span>Agregar Usuario</span>
-            </a>
-          </li>
-          <li>
-            <a href="modificar-colaborador.html">
-              <i class="bi bi-circle"></i><span>Modificar Usuario</span>
-            </a>
-          </li>
-          <li>
-            <a href="eliminar-colaborador.html" class="active">
-              <i class="bi bi-circle"></i><span>Eliminar Usuario</span>
-            </a>
-          </li>
-          <li>
-            <a href="consultar-colaborador.html">
-              <i class="bi bi-circle"></i><span>Consultar Usuario</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Gestionar Colaboradores Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-          <i class="bx bxs-star"></i><span>Eventos</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="agregar-evento.html" >
-              <i class="bi bi-circle"></i><span>Agregar Evento</span>
-            </a>
-          </li>
-          <li>
-            <a href="modificar-evento.html" >
-              <i class="bi bi-circle"></i><span>Modificar Evento</span>
-            </a>
-          </li>
-          <li>
-            <a href="eliminar-evento.html">
-              <i class="bi bi-circle"></i><span>Eliminar Evento</span>
-            </a>
-          </li>
-          <li>
-            <a href="confirm-asis-evento.html">
-              <i class="bi bi-circle"></i><span>Confirmar Asistencia</span>
-            </a>
-          </li>
-          <li>
-            <a href="consultar-calendario-evento.html">
-              <i class="bi bi-circle"></i><span>Consultar Calendario</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Eventos Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-piggy-bank"></i><span>Donaciones</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="agregar-donacion.html">
-              <i class="bi bi-circle"></i><span>Agregar Donación</span>
-            </a>
-          </li>
-          <li>
-            <a href="modificar-donacion.html">
-              <i class="bi bi-circle"></i><span>Modificar Donación</span>
-            </a>
-          </li>
-          <li>
-            <a href="consultar-donacion.html">
-              <i class="bi bi-circle"></i><span>Consultar Donación</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Donaciones Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-coin"></i><span>Fondos</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="agregar-fondo.html">
-              <i class="bi bi-circle"></i><span>Agregar Fondo</span>
-            </a>
-          </li>
-          <li>
-            <a href="modificar-fondo.html">
-              <i class="bi bi-circle"></i><span>Modificar Fondo</span>
-            </a>
-          </li>
-          <li>
-            <a href="eliminar-fondo.html">
-              <i class="bi bi-circle"></i><span>Eliminar Fondo</span>
-            </a>
-          </li>
-          <li>
-            <a href="consultar-fondo.html">
-              <i class="bi bi-circle"></i><span>Consultar Fondo</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Fondos Nav -->
-
-      <li class="nav-heading">Otros</li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="users-profile.html">
-          <i class="bi bi-person"></i>
-          <span>Perfil</span>
-        </a>
-      </li><!-- End Perfil Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-contact.html">
-          <i class="bx bx-phone-outgoing"></i>
-          <span>Contacto</span>
-        </a>
-      </li><!-- End Contacto Page Nav -->
-
-    </ul>
-
-  </aside><!-- End Sidebar-->
-
-  <main id="main" class="main">
-
-    <div class="pagetitle">
-      <h1>Eliminar Usuario</h1>
-      <nav>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-          <li class="breadcrumb-item">Gestionar Usuarios</li>
-          <li class="breadcrumb-item active">Eliminar Usuario</li>
-        </ol>
-      </nav>
-    </div><!-- End Page Title -->
-
-    <!-- SEARCH BAR AYUDA -->
-    <div style="display:flex;align-items: right;">
-      <form id="search-form" class="row g-3" style="width:40%;padding-bottom:15px;">
-        <div class="input-group"> 
-          <i class="fa fa-search"></i>
-          <input id="search-input" style="width:50%;" type="text" class="form-control" placeholder="Search">
-          <button class="btn btn-primary">Search</button>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
         </div>
-      </form>
-    </div>
+        <!-- End Logo -->
 
-    <script>
-      document.getElementById("search-form").addEventListener("submit", function(event) {
-      event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
 
-      // Obtén el valor de búsqueda ingresado por el usuario
-      var searchText = document.getElementById("search-input").value.toLowerCase();
+                <li class="nav-item dropdown">
 
-      // Filtra las filas de la tabla según el texto de búsqueda
-      var rows = document.querySelectorAll("tbody tr");
-      rows.forEach(function(row) {
-        var rowData = row.textContent.toLowerCase();
-        if (rowData.indexOf(searchText) === -1) {
-          row.style.display = "none"; // Oculta las filas que no coinciden con la búsqueda
-        } else {
-          row.style.display = ""; // Muestra las filas que coinciden con la búsqueda
-        }
-      });
-    });
-    </script>
-    <!-- SEARCH BAR AYUDA -->
-    
-    <section class="section">
-      <div class="row">
+                    <li class="nav-item dropdown pe-3">
 
-        <div class="col-lg-6">
-          <div class="card">
-            <div class="card-body">
-            <div style="overflow: auto; height: 400px;">
-              <!-- Table with hoverable rows -->
-              <table class="table table-hover">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Apellido</th>
-                    <th scope="col">Cédula</th>
-                    <th scope="col">Rol</th>
-                    <th scope="col" class="invisible-column invisible-data"> Correo </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                  </tr>
-                </tbody>
-              </table>
-              </div>
-              <!-- End Table with hoverable rows -->
-            </div>
-          </div>
+                        <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                            <i class="bi bi-person-fill"></i>
+                            <span class="d-none d-md-block dropdown-toggle ps-2" id="NombreUsuarioEntrante"></span>
+                        </a>
+                        <!-- End Profile Iamge Icon -->
+
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                            <li class="dropdown-header">
+                                <h6 id="NombreUsuario"></h6>
+                                <span id="RollUsuario"></span>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                                    <i class="bi bi-person"></i>
+                                    <span>Mi Perfil</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="pages-login.html">
+                                    <i class="bi bi-box-arrow-right"></i>
+                                    <span>Cerrar Sesión</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <!-- End Profile Dropdown Items -->
+                    </li>
+                    <!-- End Profile Nav -->
+
+            </ul>
+        </nav>
+        <!-- End Icons Navigation -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="index.html">
+                    <i class="bi bi-grid"></i>
+                    <span>Inicio</span>
+                </a>
+            </li>
+            <!-- End Inicio Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bx bxs-face"></i><span>Gestionar Jóvenes</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a href="agregar-joven.html">
+                            <i class="bi bi-circle"></i><span>Agregar Joven</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="modificar-joven.html">
+                            <i class="bi bi-circle"></i><span>Modificar Joven</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="eliminar-joven.html">
+                            <i class="bi bi-circle"></i><span>Eliminar Joven</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="consultar-joven.html">
+                            <i class="bi bi-circle"></i><span>Consultar Joven</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- End Gestionar Jóvenes Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link " data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+                    <i class="ri-team-line"></i><span>Gestionar Usuarios</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="forms-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a href="agregar-colaborador.html">
+                            <i class="bi bi-circle"></i><span>Agregar Usuario</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="modificar-colaborador.html">
+                            <i class="bi bi-circle"></i><span>Modificar Usuario</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="eliminar-colaborador.html" class="active">
+                            <i class="bi bi-circle"></i><span>Eliminar Usuario</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="consultar-colaborador.html">
+                            <i class="bi bi-circle"></i><span>Consultar Usuario</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- End Gestionar Colaboradores Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bx bxs-star"></i><span>Eventos</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a href="agregar-evento.html">
+                            <i class="bi bi-circle"></i><span>Agregar Evento</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="modificar-evento.html">
+                            <i class="bi bi-circle"></i><span>Modificar Evento</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="eliminar-evento.html">
+                            <i class="bi bi-circle"></i><span>Eliminar Evento</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="confirm-asis-evento.html">
+                            <i class="bi bi-circle"></i><span>Confirmar Asistencia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="consultar-calendario-evento.html">
+                            <i class="bi bi-circle"></i><span>Consultar Calendario</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- End Eventos Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-piggy-bank"></i><span>Donaciones</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a href="agregar-donacion.html">
+                            <i class="bi bi-circle"></i><span>Agregar Donación</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="modificar-donacion.html">
+                            <i class="bi bi-circle"></i><span>Modificar Donación</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="consultar-donacion.html">
+                            <i class="bi bi-circle"></i><span>Consultar Donación</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- End Donaciones Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-coin"></i><span>Fondos</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a href="agregar-fondo.html">
+                            <i class="bi bi-circle"></i><span>Agregar Fondo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="modificar-fondo.html">
+                            <i class="bi bi-circle"></i><span>Modificar Fondo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="eliminar-fondo.html">
+                            <i class="bi bi-circle"></i><span>Eliminar Fondo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="consultar-fondo.html">
+                            <i class="bi bi-circle"></i><span>Consultar Fondo</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- End Fondos Nav -->
+
+            <li class="nav-heading">Otros</li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="users-profile.html">
+                    <i class="bi bi-person"></i>
+                    <span>Perfil</span>
+                </a>
+            </li>
+            <!-- End Perfil Page Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="pages-contact.html">
+                    <i class="bx bx-phone-outgoing"></i>
+                    <span>Contacto</span>
+                </a>
+            </li>
+            <!-- End Contacto Page Nav -->
+
+        </ul>
+
+    </aside>
+    <!-- End Sidebar-->
+
+    <main id="main" class="main">
+
+        <div class="pagetitle">
+            <h1>Eliminar Usuario</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item">Gestionar Usuarios</li>
+                    <li class="breadcrumb-item active">Eliminar Usuario</li>
+                </ol>
+            </nav>
+        </div>
+        <!-- End Page Title -->
+
+        <!-- SEARCH BAR AYUDA -->
+        <div style="display:flex;align-items: right;">
+            <form id="search-form" class="row g-3" style="width:40%;padding-bottom:15px;">
+                <div class="input-group">
+                    <i class="fa fa-search"></i>
+                    <input id="search-input" style="width:50%;" type="text" class="form-control" placeholder="Search">
+                    <button class="btn btn-primary">Search</button>
+                </div>
+            </form>
         </div>
 
-        <div class="col-lg-6">
-          <div class="card">
-            <div class="card-body">
-              <!-- Multi Columns Form -->
-              <form class="row g-3 needs-validation" novalidate>
-                <!--Colocar id's -->
-                <div class="col-md-12">
-                  <label for="inputName5" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="inputName5" placeholder="Kevin" required pattern="^[a-zA-Z]+$" required readonly>
-                  <div class="invalid-feedback">Por favor ingrese su nombre</div>
+        <script>
+            document.getElementById("search-form").addEventListener("submit", function(event) {
+                event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+
+                // Obtén el valor de búsqueda ingresado por el usuario
+                var searchText = document.getElementById("search-input").value.toLowerCase();
+
+                // Filtra las filas de la tabla según el texto de búsqueda
+                var rows = document.querySelectorAll("tbody tr");
+                rows.forEach(function(row) {
+                    var rowData = row.textContent.toLowerCase();
+                    if (rowData.indexOf(searchText) === -1) {
+                        row.style.display = "none"; // Oculta las filas que no coinciden con la búsqueda
+                    } else {
+                        row.style.display = ""; // Muestra las filas que coinciden con la búsqueda
+                    }
+                });
+            });
+        </script>
+        <!-- SEARCH BAR AYUDA -->
+
+        <section class="section">
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div style="overflow: auto; height: 400px;">
+                                <!-- Table with hoverable rows -->
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Cédula</th>
+                                            <th scope="col">Rol</th>
+                                            <th scope="col" class="invisible-column invisible-data"> Correo </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- End Table with hoverable rows -->
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-12">
-                  <label for="inputName5" class="form-label">Apellido</label>
-                  <input type="text" class="form-control" id="inputLastName5" placeholder="Anderson" required pattern="^[a-zA-Z]+$" required readonly>
-                  <div class="invalid-feedback">Por favor ingrese su apellido</div>
-                </div>
-                <div class="col-md-12">
-                  <label for="inputEmail5" class="form-label">Correo</label>
-                  <input type="email" class="form-control" id="inputEmail5" placeholder="sg@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required readonly>
-                  <div class="invalid-feedback">Por favor ingrese su correo</div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkAdmin">
-                    <label class="form-check-label" for="flexRadioDefault1">
+
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- Multi Columns Form -->
+                            <form class="row g-3 needs-validation" novalidate>
+                                <!--Colocar id's -->
+                                <div class="col-md-12">
+                                    <label for="inputName5" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="inputName5" placeholder="Kevin" required pattern="^[a-zA-Z]+$" required readonly>
+                                    <div class="invalid-feedback">Por favor ingrese su nombre</div>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="inputName5" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" id="inputLastName5" placeholder="Anderson" required pattern="^[a-zA-Z]+$" required readonly>
+                                    <div class="invalid-feedback">Por favor ingrese su apellido</div>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="inputEmail5" class="form-label">Correo</label>
+                                    <input type="email" class="form-control" id="inputEmail5" placeholder="sg@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required readonly>
+                                    <div class="invalid-feedback">Por favor ingrese su correo</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkAdmin">
+                                        <label class="form-check-label" for="flexRadioDefault1">
                       Administrador
                     </label>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkColab">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkColab">
+                                        <label class="form-check-label" for="flexRadioDefault1">
                       Colaborador
                     </label>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <label for="inputFecha5" class="form-label">Fecha de Nacimiento</label>
-                  <input type="date" class="form-control" id="inputFecha5" required readonly>
-                  <div class="invalid-feedback">Por favor ingrese su fecha de nacimiento</div>
-                </div>
-                <div class="col-md-6">
-                  <label for="inputCedula5" class="form-label">Cédula</label>
-                  <input type="text" class="form-control" id="inputCedula5" placeholder="12695352" pattern="[0-9]{7,8}" required readonly>
-                  <div class="invalid-feedback">Por favor ingrese su cédula</div>
-                </div>
-                <div class="col-md-6">
-                  <label for="inputTelefono5" class="form-label">Número de teléfono</label>
-                  <input type="text" class="form-control" id="inputTelefono5" placeholder="0412-9065048" pattern="[0-9]{4}-[0-9]{7}" required readonly>
-                  <div class="invalid-feedback">Por favor ingrese su número de teléfono</div>
-                </div>
-                <div class="col-md-12">
-                  <label for="inputHobbies5" class="form-label">Descripción</label>
-                  <input type="text" class="form-control" id="inputDescripcion5" placeholder="Jugar fútbol, dibujar y cantar."readonly>
-                </div>
-                <!--------------------------------------MENSAJE DE CONFIRMACION-------------------------------------------------------->
-              <div class="text-center"> 
-                
-                  <button id = "eliminarUsuario" type="button" class="btn btn-primary" onclick="mostrarConfirmacion()">Eliminar</button>
-              </div>
-            <!--------------------------------------------------------------------------------------------------------------------->
-              </form><!-- End Multi Columns Form -->
-            </div>
-          </div> 
-        </div>
-      
-      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="inputFecha5" class="form-label">Fecha de Nacimiento</label>
+                                    <input type="date" class="form-control" id="inputFecha5" required readonly>
+                                    <div class="invalid-feedback">Por favor ingrese su fecha de nacimiento</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputCedula5" class="form-label">Cédula</label>
+                                    <input type="text" class="form-control" id="inputCedula5" placeholder="12695352" pattern="[0-9]{7,8}" required readonly>
+                                    <div class="invalid-feedback">Por favor ingrese su cédula</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputTelefono5" class="form-label">Número de teléfono</label>
+                                    <input type="text" class="form-control" id="inputTelefono5" placeholder="0412-9065048" pattern="[0-9]{4}-[0-9]{7}" required readonly>
+                                    <div class="invalid-feedback">Por favor ingrese su número de teléfono</div>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="inputHobbies5" class="form-label">Descripción</label>
+                                    <input type="text" class="form-control" id="inputDescripcion5" placeholder="Jugar fútbol, dibujar y cantar." readonly>
+                                </div>
+                                <!--------------------------------------MENSAJE DE CONFIRMACION-------------------------------------------------------->
+                                <div class="text-center">
 
-      <script>
-        var h6Element = document.getElementById("NombreUsuario");
-        var TipoUsuario = document.getElementById("RollUsuario")
-        var Nombre = document.cookie.replace(/(?:(?:^|.*;\s*)Nombre\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-        var Apellido = document.cookie.replace(/(?:(?:^|.*;\s*)Apellido\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-        var Roll = document.cookie.replace(/(?:(?:^|.*;\s*)Roll\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-        h6Element.textContent = Nombre + ' ' + Apellido;
-        TipoUsuario.textContent = Roll
-      </script>
-      
-      <script>
-        var spanElement = document.getElementById("NombreUsuarioEntrante");
-        var Nombre = document.cookie.replace(/(?:(?:^|.*;\s*)Nombre\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-        var Apellido = document.cookie.replace(/(?:(?:^|.*;\s*)Apellido\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-        spanElement.textContent = Nombre.charAt(0) + ". " + Apellido;
-      </script>
-      
-    </section>
+                                    <button id="eliminarUsuario" type="button" class="btn btn-primary" onclick="mostrarConfirmacion()">Eliminar</button>
+                                </div>
+                                <!--------------------------------------------------------------------------------------------------------------------->
+                            </form>
+                            <!-- End Multi Columns Form -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <script>
+                var h6Element = document.getElementById("NombreUsuario");
+                var TipoUsuario = document.getElementById("RollUsuario")
+                var Nombre = document.cookie.replace(/(?:(?:^|.*;\s*)Nombre\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+                var Apellido = document.cookie.replace(/(?:(?:^|.*;\s*)Apellido\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+                var Roll = document.cookie.replace(/(?:(?:^|.*;\s*)Roll\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+                h6Element.textContent = Nombre + ' ' + Apellido;
+                TipoUsuario.textContent = Roll
+            </script>
+
+            <script>
+                var spanElement = document.getElementById("NombreUsuarioEntrante");
+                var Nombre = document.cookie.replace(/(?:(?:^|.*;\s*)Nombre\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+                var Apellido = document.cookie.replace(/(?:(?:^|.*;\s*)Apellido\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+                spanElement.textContent = Nombre.charAt(0) + ". " + Apellido;
+            </script>
+
+        </section>
 
         <!-- No borrar hablar con Juan sino se entiende que es esto xd -->
-    <input type="hidden" id="Cedula" placeholder="@sarahhernandezb">
-    <input type="hidden" id="Correo">
+        <input type="hidden" id="Cedula" placeholder="@sarahhernandezb">
+        <input type="hidden" id="Correo">
 
-     <style>
-      .invisible-column {
-        display: none;
-      }
+        <style>
+            .invisible-column {
+                display: none;
+            }
+            
+            .invisible-data {
+                visibility: hidden;
+            }
+        </style>
 
-      .invisible-data {
-        visibility: hidden;
-      }
-    </style>
+    </main>
+    <!-- End #main -->
 
-  </main><!-- End #main -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/chart.js/chart.umd.js"></script>
-  <script src="assets/vendor/echarts/echarts.min.js"></script>
-  <script src="assets/vendor/quill/quill.min.js"></script>
-  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
-  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script type="module" src="../Controladora/ControladoraGeneral.mjs"></script>
-  <script type="module" src="../Controladora/main.mjs"></script>
+    <!-- Template Main JS File -->
+    <script type="module" src="/C/ControladoraGeneral.js"></script>
+    <script type="module" src="/C/main.js"></script>
 
 </body>
 
