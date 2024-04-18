@@ -26,10 +26,10 @@ export class ControladoraJovenes{
         }
       })
       .then(data => {
-       // alert("Si se pudo");
+        alert("Se ha agregado al joven correctamente");
       })
       .catch(error => {
-       // alert('Error al agregar el joven: ' + error);
+       alert('Error al agregar el joven: ' + error);
       });
   }
 
@@ -86,8 +86,12 @@ export class ControladoraJovenes{
       }  
 
       if(correcto==true){
+        alert('Todo bajo control')
+      }
+
+      if(correcto==true){
         setTimeout(function() {
-                  location.reload();
+                  //location.reload();
         }, 1500);
       }
 
@@ -120,7 +124,7 @@ export class ControladoraJovenes{
   async AgregarJoven(nombre,apellido,cedula,correo,redes,hobby,telefono,fechaNacimiento){
     const val= await this.validacionJoven(nombre,apellido,cedula,correo,redes,hobby,telefono,fechaNacimiento,1);
     if (val==true)  {this.AgregarJovenBase(nombre,apellido,cedula,correo,redes,hobby,telefono,fechaNacimiento); 
-                      location.reload();
+                      //location.reload();
                       }
   }
 
