@@ -178,10 +178,10 @@ export class ControladoraJovenes{
   })
     .then(response => {})
     .then(data => {
-     // alert("Joven eliminado correctamente");
+     alert("Joven eliminado correctamente");
     })
     .catch(error => {
-    // alert('Error al eliminar joven:', error);
+     alert('Error al eliminar joven:', error);
     });
 
 }

@@ -87,7 +87,7 @@ import { ControladoraDonaciones } from './ControladoraDonaciones.js';
                         let confirmar = confirm("Seguro que desea eliminar al joven seleccionado?");
                         if (confirmar) {
                             controladoraJovenes.EliminarJoven(cedula);
-                            location.reload()
+                            //location.reload()
                         } else { event.preventDefault() }
 
                     } else {
