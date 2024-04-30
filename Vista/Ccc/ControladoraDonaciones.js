@@ -2,7 +2,7 @@
 export class ControladoraDonaciones{
 
   async vizualizarDonaciones(table){
-    fetch('http://localhost:3000/Donaciones/buscarTodoDonaciones', {
+    fetch('https://sqa-kcgp.onrender.com/Donaciones/buscarTodoDonaciones', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ export class ControladoraDonaciones{
 
   async AgregarDonacionBase(nombreCorporacion,tipoDonacion,descripcion,rif,cedula,cantidad,fechaActual){
 
-      fetch('http://localhost:3000/Donaciones/agregarDonacion', {
+      fetch('https://sqa-kcgp.onrender.com/Donaciones/agregarDonacion', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -130,7 +130,7 @@ export class ControladoraDonaciones{
 ////////////Visualizar donaciones para Modificar///////////////
 
  async vizualizarDonacionesParaModificar(table){
-    fetch('http://localhost:3000/Donaciones/buscarTodoDonaciones', {
+    fetch('https://sqa-kcgp.onrender.com/Donaciones/buscarTodoDonaciones', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -202,7 +202,7 @@ export class ControladoraDonaciones{
  
    async BuscarDonacionPorID(id){
 
-        await fetch('http://localhost:3000/Donaciones/buscarDonacionPorId', {
+        await fetch('https://sqa-kcgp.onrender.com/Donaciones/buscarDonacionPorId', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -317,7 +317,7 @@ export class ControladoraDonaciones{
 
   async ModifcarDonacion(nombreCorporacion,tipoDonacion,descripcion,rif,cedula,cantidad,id){
 
-        await fetch('http://localhost:3000/Donaciones/modificarDonacion', {
+        await fetch('https://sqa-kcgp.onrender.com/Donaciones/modificarDonacion', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

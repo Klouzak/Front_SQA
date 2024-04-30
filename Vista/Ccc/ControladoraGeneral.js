@@ -21,7 +21,7 @@ import { ControladoraDonaciones } from './ControladoraDonaciones.js';
                     evento.stopPropagation();
                     const contenidoEmail = document.getElementById("yourUsername").value;
                     const contenidoPassword = document.getElementById("yourPassword").value;
-                    controladoraUsuario.logeo(contenidoEmail, contenidoPassword);  
+                    controladoraUsuario.logeo(contenidoEmail, contenidoPassword);
                 });
             });
             break;
