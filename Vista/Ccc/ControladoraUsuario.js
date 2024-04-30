@@ -292,7 +292,7 @@ export class ControladoraUsuario {
 
         if (val == true) {
             this.ModificarUsuarioBase(nombre, apellido, cedula, correo, cedulaTabla, telefono, fechaNacimiento, password, descripcion, tipo);
-            location.reload();
+            //location.reload();
         }
     }
 
@@ -432,7 +432,7 @@ export class ControladoraUsuario {
 
         if (val == true) {
             this.AgregarUsuarioBase(nombre, apellido, cedula, correo, telefono, fechaNacimiento, password, descripcion, Tipo);
-            location.reload();
+            //location.reload();
         }
 
     }

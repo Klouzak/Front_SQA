@@ -160,7 +160,7 @@ import { ControladoraDonaciones } from './ControladoraDonaciones.js';
                             alert("Elija primero a un Usuario a eliminar")
                         } else {
                             controladoraUsuario.EliminarUsuario(cedula);
-                            location.reload()
+                            //location.reload()
                         }
                     } else event.preventDefault()
 
