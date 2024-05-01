@@ -360,7 +360,7 @@ import { ControladoraDonaciones } from './ControladoraDonaciones.js';
         case 'agregar-evento':
             document.addEventListener("DOMContentLoaded", function() {
                 const botonAgregarEvento = document.querySelector("#agregarEvento");
-                botonAgregarEvento.addEventListener("click", function(evento) {
+                botonAgregarEvento.addEventListener("click", function(event) {
 
                     const nombre = document.getElementById("nombreEvento").value;
                     const fecha = document.getElementById("fechaEvento").value;
@@ -429,7 +429,7 @@ import { ControladoraDonaciones } from './ControladoraDonaciones.js';
                             alert("Debe seleccionar un evento a eliminar");
                         } else {
                             controladoraEventos.EliminarEvento(nombre);
-                            location.reload()
+                            //location.reload()
                         }
                     } else {
                         event.preventDefault();

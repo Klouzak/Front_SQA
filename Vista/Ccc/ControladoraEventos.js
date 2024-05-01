@@ -87,7 +87,7 @@ export class ControladoraEventos{
 
 
       async visualizarEventos(table,toggle) {
-        fetch('http://localhost:3000/Eventos/buscarEventos', {
+        fetch('https://sqa-kcgp.onrender.com/Eventos/buscarEventos', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -671,7 +671,7 @@ async ValidarNombreRepetido(nombre,fecha,idPersona,descripcion,hora,auxiliarNomb
 
         if(data){
                 this.AgregarEvento(nombre,fecha,idPersona,descripcion,hora);
-                location.reload()
+                //location.reload()
        }else{
           alert("No se pudo agregar, ya existe un evento con ese nombre");
         }
@@ -703,7 +703,7 @@ async ValidarNombreRepetido(nombre,fecha,idPersona,descripcion,hora,auxiliarNomb
 
         if(data){
                 this.ModificarEvento(nombre,fecha,idPersona,descripcion,hora,auxiliarNombre);
-                location.reload()
+                //location.reload()
        }else{
               alert("No se pudo agregar, ya existe un evento con ese nombre")
         }
