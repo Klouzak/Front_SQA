@@ -4,7 +4,7 @@ export class ControladoraEventos{
 
   async AgregarEvento(nombre,fecha,idPersona,descripcion,hora){
 
-    fetch('http://localhost:3000/Eventos/agregarEvento', {
+    fetch('https://sqa-kcgp.onrender.com/Eventos/agregarEvento', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -28,7 +28,7 @@ export class ControladoraEventos{
 
 
     async BuscarEventos(calendar){
-        await fetch('http://localhost:3000/Eventos/buscarEventos', {
+        await fetch('https://sqa-kcgp.onrender.com/Eventos/buscarEventos', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -62,7 +62,7 @@ export class ControladoraEventos{
       // Modificar
       async ModificarEvento(nombre,fecha,idPersona,descripcion,hora, respladoNombre){
 
-        await fetch('http://localhost:3000/Eventos/modificarEvento', {
+        await fetch('https://sqa-kcgp.onrender.com/Eventos/modificarEvento', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -156,7 +156,7 @@ export class ControladoraEventos{
       }
 
       async BuscarDatosDeUnEventoNombre(name){
-        fetch('http://localhost:3000/Eventos/buscarUnEventoPorNombre',{
+        fetch('https://sqa-kcgp.onrender.com/Eventos/buscarUnEventoPorNombre',{
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -191,7 +191,7 @@ export class ControladoraEventos{
 
     async EliminarEvento(name){
 
-      await fetch('http://localhost:3000/Eventos/eliminarEvento', {
+      await fetch('https://sqa-kcgp.onrender.com/Eventos/eliminarEvento', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -214,7 +214,7 @@ export class ControladoraEventos{
  
     async BuscarJovenesQueNoEstanEnUnEvento(idEvento){
       
-       fetch('http://localhost:3000/Eventos/buscarJovenesQueNoEstanEnUnEvento', {
+       fetch('https://sqa-kcgp.onrender.com/Eventos/buscarJovenesQueNoEstanEnUnEvento', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -339,7 +339,7 @@ export class ControladoraEventos{
 
     async AgregarJovenaUnEvento(IdEvento,IdJoven){
 
-   fetch('http://localhost:3000/Eventos//AgregarJovenEvento', {
+   fetch('https://sqa-kcgp.onrender.com/Eventos//AgregarJovenEvento', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -363,7 +363,7 @@ export class ControladoraEventos{
 
     async BuscarJovenesEnUnEvento(idEvento){
       
-       fetch('http://localhost:3000/Eventos/buscarJovenesQueEstanEnUnEvento', {
+       fetch('https://sqa-kcgp.onrender.com/Eventos/buscarJovenesQueEstanEnUnEvento', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -487,7 +487,7 @@ export class ControladoraEventos{
 
     async EliminarJovenaEvento(IdJoven){
 
-       fetch('http://localhost:3000/Eventos/EliminarJovenEvento', {
+       fetch('https://sqa-kcgp.onrender.com/Eventos/EliminarJovenEvento', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -510,7 +510,7 @@ export class ControladoraEventos{
     //////////////////////Visualizar eventos para modificar y eliminar
 
     async visualizarEventosModificarOEliminar(table) {
-      fetch('http://localhost:3000/Eventos/buscarEventos', {
+      fetch('https://sqa-kcgp.onrender.com/Eventos/buscarEventos', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -656,7 +656,7 @@ export class ControladoraEventos{
 
 async ValidarNombreRepetido(nombre,fecha,idPersona,descripcion,hora,auxiliarNombre){
 
-       await fetch('http://localhost:3000/Eventos/validarNombreEvento', {
+       await fetch('https://sqa-kcgp.onrender.com/Eventos/validarNombreEvento', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -687,7 +687,7 @@ async ValidarNombreRepetido(nombre,fecha,idPersona,descripcion,hora,auxiliarNomb
 
     async ValidarSiHayUnSoloEventoConMismoNombre(nombre,fecha,idPersona,descripcion,hora, auxiliarNombre){
 
-      await fetch('http://localhost:3000/Eventos/validarNombreEventoParaModificar', {
+      await fetch('https://sqa-kcgp.onrender.com/Eventos/validarNombreEventoParaModificar', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
