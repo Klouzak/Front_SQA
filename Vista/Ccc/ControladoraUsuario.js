@@ -29,7 +29,6 @@ export class ControladoraUsuario {
                 } {}
             })
             .catch(error => {
-                e
                 // alert('Error al agregar el joven:', error);  
             });
     }
