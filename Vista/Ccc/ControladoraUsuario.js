@@ -1,5 +1,3 @@
-import { Usuario } from '../Modelo/Usuario.mjs';
-
 
 export class ControladoraUsuario {
 
